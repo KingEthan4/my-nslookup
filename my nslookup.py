@@ -1,7 +1,7 @@
 from scapy.all import *
 
-DNS_SERVER_ADDRESS =  "213.57.22.5"
-DNS_SERVER_NAME = "ns2-cache.hotnet.net.il"
+DNS_SERVER_ADDRESS =  "8.8.8.8"
+DNS_SERVER_NAME = "Google DNS server"
 DNS_PORT = 53
 IP_ADDRESS_DELIMITER = '"'
 BEFORE_LAST_INDEX = -2
