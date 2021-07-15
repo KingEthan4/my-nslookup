@@ -49,7 +49,8 @@ def get_IP_of_domain(domain):
 
 
 def main():
-
+    print("Type 'nslookup' and then enter a domain. Like that: nslookup google.com")
+    
     user_domain = input()
     if (user_domain[:len(NSLOOKUP_COMMAND)] != NSLOOKUP_COMMAND): # checking if user wrote nslookup at the start.
         print("Invalid command! Try writing " + NSLOOKUP_COMMAND + " at the start")
